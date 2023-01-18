@@ -1,0 +1,9 @@
+mylist = [10, 20, 30, 40] 
+  
+def sum_the_list(mylist): 
+    res = 0
+    for val in mylist: 
+        res += val 
+    print(res)
+  
+sum_the_list(mylist)
